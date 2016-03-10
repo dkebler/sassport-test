@@ -1,11 +1,6 @@
 /*jslint node: true */
 'use strict';
 
-// Get array of paths for all bower sass libraries and put in sass.json file
-// in directory set in .bowerrc.  (see config/sass.js)
-// This set of paths gets sent to node-sass in gulp sass task
-// runs ons whenever gulp sass is called or when bower.json changes.
-
 module.exports = (function() {
 var jsonfile = require('jsonfile');
 var sass = {};  // holds bower sass/scss library paths

@@ -2,7 +2,7 @@ Sassport includepaths test
 
 
 			npm install
-			bower install
-			gulp sass  - uses gulp-sass
-			gulp sassport -uses gulp-sassport
-			assumes you have gulp installed globally.
+			bower install  // runs postinstall sass-bower below
+			node sass   // runs gulp-sass version
+			node sassport //runs gulp-sassport version
+			node sass-bower  // grab sass paths from bower libs to include in node-sass
