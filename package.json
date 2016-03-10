@@ -1,0 +1,24 @@
+{
+  "name": "gulp-sassport-test",
+  "version": "0.1.0",
+  "description": "Gulp Sassport /index.scss support test case",
+  "engines": {
+    "node": "5.x.x",
+    "npm": "3.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkebler/Super-Static-Site-Starter"
+  },
+  "scripts": {
+    "bowersass": "node sass-bower"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-sass": "^2.1.0",
+    "gulp-sassport": "^0.4.0",
+    "jsonfile": "^2.2.3",
+    "vinyl-fs": "^2.4.2",
+    "wiredep": "^3.0.0"
+  }
+}

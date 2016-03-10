@@ -1,0 +1,23 @@
+.sidebar {
+  @include color-set($sidebar-bg-color);
+}
+
+.sidebar .box {
+  @include color-set($sidebar-bg-color, 3);
+}
+
+#tag__cloud {
+  flex: 0;
+}
+
+#tag__article {
+  flex: 0;
+}
+
+#sidebar__nav {
+  flex: 0;
+}
+
+#notices {
+  flex: 0 0 20%;
+}
