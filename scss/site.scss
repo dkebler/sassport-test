@@ -16,7 +16,7 @@
 //  Commonly useful ones could later be put into a library for use in other sites
 @import 'utils/debug';  // comment out to turn off debugging.
 @import 'utils/functions';
-@import 'utils/mixins';
+// @import 'utils/mixins';
 @import 'utils/placeholders';
 
 /* END - CUSTOM SASS CODES USED FOR THIS SITE.  */
@@ -27,7 +27,7 @@
 @import 'base/reset';
 
 // anything outside the base theme that needs to be reset or set before loading the base theme
-@import 'base/base-theme';
+// @import 'base/base-theme';
 
 // THE base(default) theme package.  Look inside to see the various pieces
 /* END - BASE STYLING INCLUDING THE BASE(DEFAULT) THEME  */
